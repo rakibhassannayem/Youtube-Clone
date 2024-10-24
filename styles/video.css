@@ -18,7 +18,6 @@
 .profile-picture {
     width: 36px;
     border-radius: 50px;
-
 }
 
 .thumbnail-row {
@@ -41,6 +40,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
+}
+
+@media (max-width: 600px){
+    
 }
 
 .video-time {
